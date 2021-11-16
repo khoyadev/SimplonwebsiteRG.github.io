@@ -2,7 +2,7 @@
 {font-family: 'Nunito Sans', sans-serif; */
     main{
         height: 100vh;
-        overflow-x: hidden;
+        
     }
     .accueil{
         background-image:url(../image/lagos-techie.jpg) ;
