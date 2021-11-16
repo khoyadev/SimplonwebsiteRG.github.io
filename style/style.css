@@ -27,7 +27,7 @@
     .font1{
     width: 649px;
     height: 60px;
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600px;
     font-size: 22px;
@@ -89,7 +89,7 @@
         width: 90px;
         height: 40px;
         
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px !important;
@@ -98,7 +98,7 @@
     }
     .bouton1{
     background-color:#CE0033 ;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     }
@@ -124,7 +124,7 @@
         margin-left: 50px;
     }
     h3{
-    font-family: 'Nunito Sans';
+    font-family:'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -138,7 +138,7 @@
     left: 0px;
     top: 83px;
     
-    font-family: 'Nunito Sans';
+    font-family:'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -151,11 +151,11 @@
     .div-contact{
         margin-left: 10%; 
     }
-    .h1{
+    .nouvelle{
      color: #CE0033;
      width: 333px;
     height: 65px;
-    font-family: Nunito Sans;
+    font-family:'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -173,7 +173,7 @@
         top: 634px;
     }
     .h1-decouverte{
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 100px;
@@ -249,7 +249,7 @@
     width: 231px;
     height: 36px;
     
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
@@ -265,7 +265,7 @@
     width: 100px;
     height: 30px;
     margin-left: 90%!important;
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     
     font-weight: 800;
     font-size: 16px !important;
@@ -307,7 +307,7 @@
     left: 72px;
     top: 4580px;
     
-    font-family: Nunito Sans;
+    font-family:'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -326,7 +326,7 @@
     .orbit1{
         width: 551px;
         height: 64px;
-        font-family: Nunito Sans;
+        font-family:'Nunito Sans', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 25px;
@@ -404,7 +404,7 @@
         border-radius: 10px;
     }
     .prenom{
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -417,7 +417,7 @@
     left: 57px;
     top: 0px;
     
-    font-family: Nunito Sans;
+    font-family:'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -435,7 +435,7 @@
         color: white;
         width: 90px;
         height: 40px;
-        font-family: Nunito Sans;
+        font-family: 'Nunito Sans', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px !important;
@@ -451,7 +451,7 @@
         left: 0px;
         top: 45px;
     
-        font-family: Nunito Sans;
+        font-family:'Nunito Sans', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 22px;
@@ -463,7 +463,7 @@
     width: 202px;
     height: 60px;
     
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -511,7 +511,7 @@
     left: -63px;
     top: 81px;
     
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
