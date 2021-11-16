@@ -3766,7 +3766,7 @@ textarea.form-control-lg {
 .btn-toolbar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  yt: flex-start;
 }
 .btn-toolbar .input-group {
   width: auto;

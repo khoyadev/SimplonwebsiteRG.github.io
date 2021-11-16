@@ -11,6 +11,21 @@
         background-position: left;
 
     } 
+    .actu{
+        background-image:url(../image/actu.png) ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: left;
+        height: max-content;
+        width: 100%;
+    } 
+    .date{
+        width: 32px;
+        height: 42px;
+       margin-bottom: 50%;
+       margin-top: -18px;
+       
+    }
     .font{
     width: 767px;
     height: 171px;
@@ -462,7 +477,6 @@
     .sim{
     width: 202px;
     height: 60px;
-    
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -518,5 +532,17 @@
     line-height: 33px;
     text-align: center;
     
+    color: #FFFFFF;
+    }
+    .voirplusfooter{
+        width: 124px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
     color: #FFFFFF;
     }

@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm  navbar-light bg-light fixed-top menu">
+    <nav class="navbar navbar-expand-md d-md-flex flex-md-row justify-content-md-start  d-lg-inline-flex navbar-light bg-light fixed-top menu">
 		<div class="justify-content-sm-start">
             <a href="#" class="navbar-brand">
                 <img src="image/simplonSenegal.png" alt="" class="img img-fluid float-start navbar-brand img1 mb-sm-5 my-md-5 mx-md-5">
             </a>
         </div>
-        <button class="navbar-toggler border-danger border-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border-danger border-1 me-md-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         <div class="collapse navbar-collapse div-ul" id="navbarSupportedContent">
-            <ul class="navbar-nav d-flex justify-content-sm-between mb-2" id="montabs">
+            <ul class="navbar-nav d-flex justify-content-between mb-2" id="montabs">
                 <li class="nav-item pb-3 ">
                     <a href="#" class="nav-link pb-4 mt-5 me-5 active">Accueil</a>
                     
@@ -61,12 +61,12 @@
     </nav>
     <main>
         <!--Home-->
-        <section class="accueil bg-dark d-sm-flex w-100 h-100 flex-sm-column justify-content-sm-center align-items-sm-center">
+        <section class="accueil bg-dark d-flex w-100 h-100 flex-column justify-content-center align-items-center">
             <div class="container-fluid mt-5 ">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 mt-5 ">
-                            <h1 class="font display-1 text-white text-sm-start ">Simplon,<br>
+                        <div class="col-md-12 col-lg-8 mt-5 ">
+                            <h1 class="font display-1 text-white text-start ">Simplon,<br>
                                 réseau de Fabriques numériques et inclusives</h1>
                             <p class="font1 lead text-start text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Suspendisse varius enim in eros elementum tristique.</p> 
@@ -83,6 +83,7 @@
                 </div>
             </div>
         </section>
+
         <!--Introduction-->
         <section>
             <div class="container-fluid introduction d-flex flex-md-column justify-content-center align-items-center">
@@ -101,6 +102,7 @@
                 </div>
         </div>
         </section>
+
         <!--Nouvelle-->
         <section>
             <header>            
@@ -117,7 +119,9 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <img src="image/actu.png" alt="" class="w-100">
+                            <div class="actu">
+                                <img src="image/sept25.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
                                 <p class="card-text">
@@ -129,7 +133,9 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <img src="image/actu.png" alt="" class="w-100">
+                            <div class="actu">
+                                <img src="image/sept30.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
                                 <p class="card-text">
@@ -142,7 +148,9 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <img src="image/actu.png" alt="" class="w-100">
+                            <div class="actu">
+                                <img src="image/sept22.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
                                 <p class="card-text">
@@ -155,7 +163,9 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="card mb-4 shadow-sm">
-                            <img src="image/actu.png" alt="" class="w-100">
+                            <div class="actu">
+                                <img src="image/sept12.png" class="img img-fluid date float-end me-3" alt="">
+                            </div>
                             <div class="card-body">
                                 <h6 >Jour de rentrée pour les 30 apprenant.es de la 4ème promo</h6>
                                 <p class="card-text">
@@ -232,8 +242,9 @@
                 </div>
             </div>
         </section>
+
         <!--Decouverte-->
-         <section class="accueil1 bg-dark d-flex justify-content-center align-items-center">
+        <section class="accueil1 bg-dark d-flex justify-content-center align-items-center">
             <div class="container-fluid mb-5">
                 <div class="container mb-5">
                     <div class="row mb-5">
@@ -247,31 +258,34 @@
                 </div>
             </div>
         </section>
-        <div class="accueil2 chiffre d-flex flex-column justify-content-center align-items-center">
-            <div class="container-fluid mb-5">
-                <div class="container mb-5">
-                    <div class="row mb-5">
-                        <div class="col-lg-4">
-                            <h1 class="h1-decouverte display-1 text-white text-start">  100</h1>
-                            <p class="font1 lead text-start text-white">Formateurs experts</p> 
-                        </div>
-                        <div class="col-lg-4 text-white">
-                            <div class="d-flex flex-column">
-                                <h1 class="h1-decouverte display-1 ">  385</h1>
+        <aside class="accueil2 chiffre d-flex flex-column justify-content-center align-items-center">
+                <div class="container-fluid mb-5">
+                    <div class="container mb-5">
+                        <div class="row mb-5">
+                            <div class="col-lg-4">
+                                <h1 class="h1-decouverte display-1 text-white text-start">  100</h1>
+                                <p class="font1 lead text-start text-white">Formateurs experts</p> 
                             </div>
-                            <div class="fontchiffre">
-                                <p class="text-start ">Apprenant.es formé.es depuis l’ouverture dans le pays</p> 
+                            <div class="col-lg-4 text-white">
+                                <div class="d-flex flex-column">
+                                    <h1 class="h1-decouverte display-1 ">  385</h1>
+                                </div>
+                                <div class="fontchiffre">
+                                    <p class="text-start ">Apprenant.es formé.es depuis l’ouverture dans le pays</p> 
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 d-flex flex-column text-center">
-                            <h1 class="h1-decouverte display-1 text-white text-start">  96</h1>
-                            <p class="font1 lead text-start text-white">Enfants sensibilisé.e.s au <br> numérique</p> 
+                            <div class="col-lg-4 d-flex flex-column text-center">
+                                <h1 class="h1-decouverte display-1 text-white text-start">  96</h1>
+                                <p class="font1 lead text-start text-white">Enfants sensibilisé.e.s au <br> numérique</p> 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-            <!--Formateur-->
+           
+        </aside>
+        
+        <!--Formateur-->
+        <section>
             <div class="container">
                 <div class="row mb-5">
                     <h3 class="text-start">Formateur</h3>
@@ -332,12 +346,15 @@
                         </div>
                     </div> 
             </div>
-            <div class="slide-general" >
+            <div class="slide-general mt-5" >
                 <button class="slide me-3"></button>
                 <button class="slide me-3"></button>
                 <button class="slide1"></button>
             </div>
-            <!--Apprenant-->
+        </section>
+
+        <!--Apprenant-->
+        <section>
             <div class="container py-5">
                 <div class="row mb-5">
                     <h3 class="text-start">Apprenants</h3>
@@ -374,7 +391,10 @@
                     </div>
                
             </div>
-            <!--Histoire de la communaute-->
+        </section>
+           
+        <!--Histoire de la communaute-->
+        <section>
             <div class="container py-5">
                 <div class="row ">
                     <div class="col-sm-6">
@@ -384,14 +404,13 @@
                                 <img src="image/play.png" alt="" class="img img-fluid align-self-center">
                                 <img src="image/heure.png" class="img img-fluid align-self-end" alt="">
                             </div>
-                           
                             <div class="hr-red bg-danger text-white ">
                                 .
                                </div>
                             <div class="card-body">
-                                    <p class="card-text orbit1 mb-5">
-                                        Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
-                                    </p>
+                                <p class="card-text orbit1 mb-5">
+                                    Les anciens simploniens qui ont ete formes au developpement web et mobile dans la fabrique Simplon.co 
+                                </p>
                             </div>
                         </div>
                         <div class="cercle"></div>
@@ -409,7 +428,10 @@
                     </div>
                 </div>
             </div>
-            <!--Equipe pedagogique-->
+        </section>
+
+        <!--Equipe pedagogique-->
+        <section>
             <div class="container py-5">
                 <div class="row ">
                     <div class="col-sm-12">
@@ -423,7 +445,10 @@
                     </div>
                 </div>
             </div>
-            <!--alumni-->
+        </section>
+
+        <!--alumni-->
+        <section>
             <div class="container py-5">
                 <div class="row ">
                     <div class="col-sm-6 ">
@@ -443,7 +468,6 @@
                                 <img src="image/play.png" alt="" class="img img-fluid align-self-center">
                                 <img src="image/heure.png" class="img img-fluid align-self-end" alt="">
                             </div>
-                           
                             <div class="hr-red bg-danger text-white ">
                                 .
                                </div>
@@ -456,7 +480,10 @@
                     </div>
                 </div>
             </div>
-            <!--les petites histoires de la communaute-->
+        </section>
+
+        <!--les petites histoires de la communaute-->
+        <section>
             <div class="container py-5">
                 <div class="row mb-5">
                     <h3 class="text-start">les petites histoires de la communaute</h3>
@@ -543,13 +570,16 @@
                 <button class="slide me-3"></button>
                 <button class="slide1"></button>
             </div> 
-            <!--Contact-->
-            <div class="container mt-5">
-                <div>
-                    <h1 class="text-lg-center h1 mt-5"> Nous Contacter</h1>
+        </section>
+
+        <!--Contact-->
+        <section>
+            <div class="container">
+                <div class=" text-center me-5 mb-5">
+                    <h1 class=" nouvelle">Nous Contacter</h1>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 col-lg-10">
+                <div class="row ">
+                    <div class="col-sm-12 col-lg-10 mt-5">
                         <form>
                             <div class="mb-5">
                                 <input type="text" class=" formulaire me-4 prenom" name="prenom" id="prenom" placeholder=" Prenom*">
@@ -606,8 +636,10 @@
                     </div>
                 </div>
             </div>
-            <!--footer-->
-            <footer>
+        </section>
+
+        <!--footer-->
+        <footer>
                 <section class="accueil3 w-100">
                     <div class="container-fluid">
                         <div class="row">
@@ -639,26 +671,26 @@
                             </div>
                             <div class="col-lg-3 mt-5">
                                 <h6 class="voirplusfooter">Voir plus</h6>
-                                <div>
                                     <p class="propos">Cité keur Goor Gi
                                         Dakar, Sicap, Libeté 2 
-                                        Senegal</p>
-                                    <p class="sim">
-                                        simplon@email.com <br>
-                                        help@simplon.com
-                                    </p>
-                                    <p class="propos">(221) 77 456 78 90
+                                        Senegal <br>
+                                       <strong>simplon@email.com </strong> <br>
+                                        <strong>help@simplon.com</strong> 
+                                   <br>(221) 77 456 78 90
                                         (221) 77 654 32 10</p>
-                                </div>
+                                
                             </div>
                             <div class="col-lg-3 mt-5">
                                 <div>
                                 <h6 class="voirplusfooter">Notre Newsletter</h6>
-                                <div>
+                               
                                     <p class="propos mt-5">Souscrivez-vous à notre newsletter pour ne manquer aucune de nos activités</p>
-                                </div>
+                                        <form class="mb-5">
+                                        <input type="text"  placeholder="Email">
+                                        <button class="btn btn-danger">joindre</button>
+                                    </form>
                             </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </section>
@@ -676,7 +708,7 @@
                    
                 </div>
             </div>
-            </footer>
+        </footer>
     </main>
 </body>
 </html>
